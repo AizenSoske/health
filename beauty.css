@@ -1,0 +1,379 @@
+
+body .tree {
+  position: absolute;
+  width: 500px;
+  background-color: transparent;
+  z-index: 1;
+  left: 490px;
+  top: 100px;
+  filter: blur(3px);
+}
+body {
+  font-family: Roboto, Arial;
+  position: relative;
+  height: 3200px;
+  z-index: 10;
+  white-space: nowrap;
+}
+body .old {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  white-space: nowrap;
+}
+.header {
+  display: flex;
+  position: fixed;
+  background-color: rgb(17, 121, 87);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  justify-content: center;
+  z-index: 200;
+}
+.left-side {
+  flex: 0.6;
+  background-color: rgba(206, 132, 36, 0.76);
+  position: relative;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  align-items: center;
+  flex-direction: column;
+  min-width: 200px;
+}
+.center {
+  flex: 1;
+  background-color: rgba(67, 50, 50, 0.708);
+  position: relative;
+  color: aliceblue;
+  min-width: 300px;
+  
+}
+.right-side {
+  flex: 1.5;
+  background-color: rgb(74, 105, 74);
+}
+
+
+.left-side .ham {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  left: 19px;
+}
+.healt {
+  background-color: black;
+}
+.center .text {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.beautycore {
+  position: absolute;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 19px;
+  top: 19px;
+  left: 70px;
+  white-space: nowrap;
+}
+.beaut {
+  border: rgb(251, 10, 10);
+  width: 69px;;
+}
+.ham:hover {
+  background-color:  rgba(124, 78, 23, 0.377);
+  margin-top: -4px;
+  margin-left: -6px;
+  padding-top: 6px ;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.beautycore:hover {
+  text-decoration: underline;
+}
+.worml {
+  display: grid;
+  grid-template-columns: 3px 3px 3px 3px 3px 3px 3px 3px 3px;
+  column-gap: 5px;
+  position: absolute;
+  left: 250px;
+  top: 22px;
+}
+.worml div {
+  width: 7px;
+  height: 8px;
+  background-color: rgb(206, 219, 206); 
+}
+.wormElement1 {
+  animation: jump-up 0.8s 0.1s linear infinite;
+}
+.wormElement2 {
+  animation: jump-up 0.8s 0.2s linear infinite;
+}
+.wormElement3 {
+  animation: jump-up 0.8s 0.3s linear infinite;
+}
+.wormElement4 {
+  animation: jump-up 0.8s 0.4s linear infinite;
+}
+.wormElement5 {
+  animation: jump-up 0.8s 0.5s linear infinite;
+}
+.wormElement6 {
+  animation: jump-up 0.8s 0.6s linear infinite;
+}
+.wormElement7 {
+  animation: jump-up 0.8s 0.7s linear infinite;
+}
+.wormElement8 {
+  animation: jump-up 0.8s 0.8s linear infinite;
+}
+.wormElement9 {
+  animation: jump-up 0.8s 0.9s linear infinite;
+}
+@keyframes jump-up{
+  50%{
+    transform: translate(0,15px);
+  }
+}
+
+body .chart {
+  position: absolute;
+  top: 210px;
+  left: 90px;
+  border: 1px solid gray;
+  padding: 10px;
+  padding-right: 30px;
+  background-color: aliceblue;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  z-index: 20;
+}
+.contain {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px;
+  padding-bottom: 14px;
+  margin-bottom: 10px;
+}
+.chart div {
+  padding-bottom: 5px;
+}
+.d2:hover, .d3:hover, .d4:hover, .d5:hover {
+  color: rgb(32, 47, 216);
+  cursor: pointer;
+  text-decoration: underline;
+}
+body .golova {
+  position: absolute;
+  top: 400px;
+  z-index: 20;
+}
+.h1 {
+  position: absolute;
+  top: 470px;
+  left: 30px;
+  z-index: 20;
+}
+body .d1 {
+  position: absolute;
+  top: 160px;
+  font-size: 25px;
+  font-weight: 500;
+  left: 40px;
+  z-index: 20;
+}
+.title {
+  position: absolute;
+  top: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  z-index: 20;
+}
+body .old {
+  white-space: normal;
+  font-size: 20px;
+  position: absolute;
+  top: 540px;
+}
+body .brain {
+  width: 1000px;
+  position: absolute;
+  top: 750px;
+  left: 40px;
+}
+body .leaf {
+  position: absolute;
+  top: 100px;
+  width: 100px;
+}
+body .leaf1 {
+  position: absolute;
+  top: 400px;
+  right: 70px;
+  width: 100px;
+  rotate: 70deg;
+}
+body .leaf2 {
+  position: absolute;
+  width: 100px;
+  top: 600px;
+  rotate: 160deg;
+  left: 260px;
+}
+.leaf, .leaf1, .leaf2 {
+  filter: blur(2px);
+}
+body .top1 {
+  position: absolute;
+  top: 1370px;
+  left: 30px;
+}
+body .leaf5 {
+  position: absolute;
+  width: 150px;
+  top: 1100px;
+  right: 10px;
+
+}
+.p1 {
+  margin-bottom: 900px;
+  z-index: 20;
+}
+body .result {
+  position: absolute;
+  top: 1840px;
+}
+body .result2 {
+  position: absolute;
+  top: 2240px;
+  margin-left: 3px;
+}
+body .result3 {
+  position: absolute;
+  top: 2490px;
+  margin-left: 3px;
+  font-size: 17px;
+}
+body .result4 {
+  position: absolute;
+  top: 2870px;
+  margin-left: 3px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.resulthead {
+  font-size: 25px;
+  font-family: Roboto, Arial;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.son {
+  font-size: 25px;
+ margin-top: 25px;
+ font-weight: 550;
+ margin-bottom: 10px;
+ margin-left: 2px;
+}
+.son1 {
+  font-size: 18px;
+  margin-left: 9px;
+}
+.son2 {
+  margin-top: 30px;
+}
+.son6 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.son5 {
+  font-size: 18px;
+}
+.nut {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.sp1 {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+.sp2 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.sp3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+body .anger {
+  width: 100px;
+  position: absolute;
+  top: 1475px;
+  left: 250px;
+}
+body .sleep {
+  top: 1900px;
+  right: 100px;
+  position: absolute;
+  filter: blur(3px);
+}
+body .run {
+  position: absolute;
+  top: 2350px;
+  left: 700px;
+  width: 100px;
+}
+body .nutrition {
+  position: absolute;
+  top: 2650px;
+  right: 300px;
+  width: 160px;
+}
+body .swim {
+  position: absolute;
+  top: 2350px;
+  left: 850px;
+  width: 100px;
+}
+.itog {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body .grass {
+  width: 420px;
+  height: 140px;
+  position: absolute;
+  bottom: 0px;
+  left: -10px;
+}
+body .grass1 {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 400px;
+}
+
+body .grass3 {
+  width: 350px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+.grass, .grass1, .grass2, .grass3 {
+  background-color: transparent;
+}
